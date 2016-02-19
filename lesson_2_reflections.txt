@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git directory is created to store the reopsitory.
+A repository directory is needed to store the meta data whenever we commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A staging area acts as an intermediary between the wd and the repo.
+A staging area gives us a place where we can add the files that we feel necessary to be grouped logically as single commit and leave the rest.
