@@ -5,3 +5,20 @@ A repository directory is needed to store the meta data whenever we commit.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 A staging area acts as an intermediary between the wd and the repo.
 A staging area gives us a place where we can add the files that we feel necessary to be grouped logically as single commit and leave the rest.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add all the files associated with one logical change to the staging area and commit them together.
+Repeat the same for each logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When we want to leave the master alone and try out new feature. Branches use labels to identify them. This would help in keeping the history organized.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams show each branch and helps to identify their parent commits and also check on unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+By merging one branch into another, we combine all the changes we made into one commit. The diagram will show the exact point where the branches diverged and merged. Thus giving us a clear idea about each branch before and after merging.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+When we ask Git to merge one branch into another, Git gives us the information about any conflict that occurs. Giving us an opportunity to correct the conflict. This saves us a lot of time.
+Manual merging is a tedious process which is time consuming and prone to lot of errors.
